@@ -1,11 +1,5 @@
 package main
 
-import (
-	"app/internal/model"
-	"encoding/json"
-	"log"
-)
-
 /*
 	Read the JSON string below and turn it into the sunset time struct we just made in step 2
 	print the struct to the screeen
@@ -50,11 +44,5 @@ var jsonString = `
 }`
 
 func main() {
-	response := model.Movie{}
-	err := json.Unmarshal([]byte(jsonString), &response)
-	if err != nil {
-		log.Printf("Error: %+v", err)
-		return
-	}
-	log.Printf("Response: %+v", response)
+
 }
