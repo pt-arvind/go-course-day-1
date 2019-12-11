@@ -8,7 +8,7 @@ Initial Tasks
 
 Step 0
 ---
-Set your `GOPATH` to be the root of this directory (example: `export GOPATH=/Users/arvind/Documents/course-day-1`)
+Download this repo
 
 
 Step 1
