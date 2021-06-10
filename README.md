@@ -17,7 +17,7 @@ Set your `GOPATH` to be the root of this directory (example: `export GOPATH=/Use
 
 Step 2
 ---
-Sign up for an API Key on `www.omdb.com` just give them your e-mail or a throwaway email and they'll send you a key
+Sign up for an API Key on `www.omdbapi.com` just give them your e-mail or a throwaway email and they'll send you a key
 
 put the key in the constant: `src/app/internal/constant/constants.go`
 
